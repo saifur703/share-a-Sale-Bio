@@ -1,0 +1,191 @@
+/*
+Theme Name: Share a Sale Bio
+Theme URI: https://github.com/saifur703/
+Author: Saifur Rahman
+Author URI: https://github.com/saifur703/
+Description: Share a Sale Bio.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: 
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/*------Start Base CSS------*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "CenturyGothic";
+  background-color: #fff;
+  color: #000;
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  vertical-align: middle;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 0 solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.fix:before,
+.fix:after {
+  content: "";
+  display: table;
+}
+
+.fix:after {
+  clear: both;
+}
+
+.section-padding {
+  padding: 50px 0 30px;
+}
+
+/*------End Base CSS------*/
+
+/*
+==============================
+Header Style Start
+==============================
+*/
+
+.site-header {
+  padding: 50px 0;
+}
+
+.logo a {
+  display: inline-block;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.banner img {
+  max-width: 600px;
+}
+
+.section-title h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.section-title h2::after {
+  position: absolute;
+  content: "";
+  left: -4px;
+  bottom: -8px;
+  width: 100%;
+  height: 6px;
+  background: #bf9b63;
+}
+
+/*
+==============================
+Header Style End 
+==============================
+*/
+
+/*
+==============================
+Content Style Start 
+==============================
+*/
+.about-content p {
+  margin-bottom: 40px;
+}
+.about-product-list ul,
+.about-item-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.about-product-list li img {
+  max-width: 30px;
+  margin: 0 5px;
+}
+.about-product-list li {
+  display: block;
+  padding: 12px 0;
+}
+.about-item-list li {
+  display: block;
+  padding: 2px 0;
+}
+.about-items {
+  margin-top: 50px;
+}
+.divider {
+  width: 5%;
+  height: 2px;
+  background: #000;
+  display: block;
+  margin: 50px auto;
+}
+/*
+==============================
+Content Style End 
+==============================
+*/
+
+/*
+==============================
+Footer Style Start 
+==============================
+*/
+.site-footer {
+  margin: 30px 0;
+}
+/*
+==============================
+Footer Style End 
+==============================
+*/
